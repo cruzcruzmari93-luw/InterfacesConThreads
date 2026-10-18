@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mccruz.conteoclic.ConteoClicController">
+    <children>
+        <Label text="Contar número de clics:" layoutX="55" layoutY="30"/>
+        <TextField fx:id="txtClics" layoutX="20" layoutY="60" prefWidth="200"/>
+        <Button fx:id="btnContar" text="¡Contar!" layoutX="90" layoutY="100" onAction="#contarClic"/>
+        <Label text="Esperar 10 segundos:" layoutX="65" layoutY="140"/>
+        <ProgressBar fx:id="progressBar" layoutX="20" layoutY="170" prefWidth="200"/>
+        <Button fx:id="btnEsperar" text="¡Esperar!" layoutX="90" layoutY="210" onAction="#esperar"/>
+    </children>
+</AnchorPane>

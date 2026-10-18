@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mccruz.liebreytortuga.LiebreYTortugaController">
+    <children>
+      <Label text="La Liebre y la Tortuga" layoutX="155" layoutY="20"/>
+      <Button fx:id="btnIniciar" text="¡Iniciar Carrera!" layoutX="165" layoutY="50" onAction="#iniciarCarrera"/>
+      <Label text="La Liebre:" layoutX="20" layoutY="100"/>
+      <ProgressBar fx:id="pbLiebre" layoutX="100" layoutY="100" prefWidth="300"/>
+      <Label text="La Tortuga:" layoutX="20" layoutY="150"/>
+      <ProgressBar fx:id="pbTortuga" layoutX="100" layoutY="150" prefWidth="300"/>
+   </children>
+</AnchorPane>
